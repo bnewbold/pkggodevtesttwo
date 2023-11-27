@@ -1,10 +1,11 @@
-
 package main
 
 import (
 	"fmt"
+
+	"github.com/bnewbold/pkggodevtesttwo/sub"
 )
 
 func main() {
-	fmt.Println("hello world")
+	fmt.Println(sub.Message)
 }
